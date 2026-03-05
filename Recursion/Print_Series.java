@@ -1,6 +1,6 @@
 import java.util.*;
 
-public static void main(String[] args) {
+public class Print_Series {
     public static List<Integer> printSeries(int n, int k) {
         List<Integer>ans=new ArrayList<>();
         solve(n,k,n,true,ans);
